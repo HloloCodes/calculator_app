@@ -1,0 +1,72 @@
+body {
+    background-color: #f523f5; /* Hot pink background for the whole app */
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    color: #f523f5;
+    text-align: center;
+    border-collapse: separate; /* IMPORTANT: allows border-radius to show properly */
+    border-spacing: 4px;       /* Adds space between cells so rounded corners look nice */
+    font: normal 3em Arial, Helvetica, sans-serif;
+    background-color: #f523f5; /* hot pink behind the buttons */
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+tr { 
+    height: 16.02vh;
+}
+
+td {
+    width: 25vw;
+    border: none;
+}
+
+/* 💖 Input box */
+#inputBox {
+    background-color: lightpink;
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: rgb(200, 247, 200);
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* 💡 Digit buttons with cute round shape */
+.digitButton {
+    background-color: lightgray;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+/* 💗 Operator buttons */
+.operatorButton {
+    background-color: lightpink;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+/* 🔥 AC button */
+.acButton {
+    background-color: lightcoral;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+/*    Equals button */
+.equalButton {
+    background-color: rgb(200, 247, 200);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+/* 💅 Extra hover sparkle effect */
+.digitButton:hover,
+.operatorButton:hover,
+.acButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px hotpink;
+}
